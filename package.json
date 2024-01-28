@@ -10,7 +10,8 @@
   "jest": {
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
-    }
+    },
+    "verbose": true
   },
   "author": "M Akmal Fathurrahman",
   "license": "ISC",
