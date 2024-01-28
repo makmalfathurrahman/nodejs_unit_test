@@ -16,6 +16,7 @@
   "author": "M Akmal Fathurrahman",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
