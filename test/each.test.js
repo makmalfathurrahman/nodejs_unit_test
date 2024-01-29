@@ -9,9 +9,6 @@ const testCases = [
   },
 ];
 
-test.each(testCases)(
-  "test sumAll(%numbers) should result %result",
-  ({ numbers, result }) => {
-    expect(sumAll(numbers)).toBe(result);
-  }
-);
+test.each(testCases)("test sumAll(%numbers) should result %result", ({ numbers, result }) => {
+  expect(sumAll(numbers)).toBe(result);
+});
