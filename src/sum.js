@@ -1,3 +1,12 @@
-export const sum = (num1, num2) => {
-  return num1 + num2;
+export const sum = (first, second) => {
+  const total = first + second;
+  return total;
+};
+
+export const sumAll = (numbers) => {
+  let total = 0;
+  for (const number of numbers) {
+    total += number;
+  }
+  return total;
 };
